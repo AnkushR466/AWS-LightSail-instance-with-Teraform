@@ -14,5 +14,5 @@ resource "aws_lightsail_instance" "test" {
   blueprint_id      = "ubuntu_16_04"
   bundle_id         = "nano_1_0"
   key_pair_name     = "my_key"
-  tag 				= "MageHost"
+  tag = "MageHost"
 }
